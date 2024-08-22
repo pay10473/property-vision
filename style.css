@@ -1,0 +1,283 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #454545;
+  }  
+  .name-bar {
+    align-items: center;
+    text-align: center;
+  }
+  .name {
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    
+  }
+  .name-sub {
+    color: green;
+    font-size: 25px;
+  }
+  .global-header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25px;
+    padding: 15px 25px;
+    width: calc(100% - 50px);
+  }  
+  .nav-left {
+    align-items: center;
+    display: flex;
+  }  
+  .nav {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+  }
+  @media (min-width: 1085px) {
+    .nav {
+      display: flex;
+    }
+  }
+    
+  ul {
+    list-style: none;
+  }
+  
+  .nav li {
+    font-size: 14px;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .nav-right {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+  }  
+  .dropdown-menu {
+    background-color: white;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1); 
+    
+    display: none;
+    padding: 15px;
+    position: absolute;
+    top: 140px;
+    width: 250px;
+    z-index: 10;
+  }  
+  .dropdown-menu#menu-1 {
+    left: 70px;
+    min-width: 400px;
+  } 
+  .dropdown-menu#menu-2 {
+    left: 170px;
+    min-width: 400px;
+  } 
+  .dropdown-menu#menu-3 {
+    left: 300px;
+    min-width: 400px;
+  }
+  .dropdown-menu#menu-4 {
+    left: 400px;
+    min-width: 400px;
+  }
+  .dropdown-menu#menu-5 {
+    left: 500px;
+    min-width: 400px;
+  }
+  .dropdown-menu#menu-6 {
+    left: 600px;
+    min-width: 400px;
+  }
+  .dropdown-menu#menu-7 {
+    left: 700px;
+    min-width: 300px;
+    color: black;
+    
+  }
+  .menu-header {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    
+  }
+  
+  .menu-item-list {
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  
+  #menu-2 .menu-item-list, 
+  #menu-3 .menu-item-list {
+    column-count: 2;
+    column-gap: 20px;
+  }  
+  .menu-item-list li a,
+  .menu-item-list li a:visited,
+  .menu-item-list li a:focus {
+    color: #454545;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .menu-item-list li a:hover {
+    background-color: rgb(242,242,242);
+    color: #1264a3;
+  } 
+   
+
+  .show {
+    display: block;
+  }   
+  
+  @media (min-width: 1085px) {
+    .search:hover {
+      
+      display: block;
+    }  
+  }
+  
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 1085px) {
+    .hamburger-menu {
+      display: none;
+    }
+  }
+  .side-menu-position {
+    padding-top: 25px;
+    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  
+  
+  .side-menu-header {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 25px 25px;  
+  }
+  
+  .side-menu-content {
+    color: #fff;
+    font-size: 24px;
+    margin: 25px;
+    padding-left: 0;
+  }
+  
+  .side-menu-content li {
+    list-style: none;
+    margin-bottom: 25px;
+  }
+  
+  .side-menu-search {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .side-menu-download {
+    background-color: #fff;
+    color: #611f69;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+  } 
+  
+  
+    .show-menu {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  img {
+    height: 
+  }
+  
+  
+img {
+  height: 600px;
+  width: 100%;
+}
+
+.picture {
+  height: 300px;
+  min-width: 100%;
+      
+      
+  }
+  .nav-bar-sub {
+      
+      
+      width: 34%;
+      border: 5px solid lightgray;
+      
+      border-radius: 5px;
+  
+      
+      
+  }
+  p {
+      margin: 0px;
+      font-size: 0.75rem;
+      font-size: 14px;    
+  }
+  .nav-bar-main {
+    display: flex;
+    margin-top: 0;
+  }
+  @media (max-width: 680px) {
+    
+    .nav-bar-main {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .nav-bar-sub {
+      width: 95%;
+    }
+  }
+  
+ .button {
+  background-color: lightgreen;
+ }
+ .close {  
+  
+  justify-content: center;
+  
+  align-items: center;
+  display: flex;
+  width: 100%;
+  
+  
+ }
+ .close-content {
+  
+  border: 4px solid green;
+  border-radius: 5px;
+  padding: 20px;
+  height: 100%;
+  width: 400px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ .submit {
+  text-align: center;
+  padding: 4px 50px;
+ }
+ 
